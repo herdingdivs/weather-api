@@ -1,0 +1,109 @@
+body {
+    background-color: darkgray;
+    font-family: Helvetica, sans-serif;
+    color: darkslategray;
+}
+
+#container {
+    width: 750px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+h1 {
+    color: orange;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#city {
+    width: 220px;
+    height: 45px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#locationsList {
+    width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+#weatherTemperature {
+    padding: 15px;
+}
+
+#weatherDescription {
+    width: 150px;
+    height: 140px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    margin-top: 14px;
+    border-radius: 10px;
+}
+
+.weather
+ {
+    background-image: url(weather_icons.jpg);
+    background-repeat: no-repeat;
+    background-position: -10px -50px;
+}
+
+.rain {
+    background-position: -315px -310px;
+}
+
+.heavy-thunderstorm {
+    background-position: -160px -197px;
+}
+
+.thunderstorm {
+    background-position: -160px -197px;
+}
+
+.cloudy {
+    background-position: -156px -93px;
+}
+
+.mostly-cloudy {
+    background-position: -156px -93px;
+}
+
+.sunny {
+    background-position: -285px -94px;
+}
+
+.clouds-and-sun {
+    background-position: -170px -319px;
+}
+
+.some-clouds {
+    background-position: -170px -319px;
+}
+
+.partly-cloudy {
+    background-position: -170px -319px;
+}
+
+.partly-sunny {
+    background-position: -170px -319px;
+}
+
+.wintry-precip {
+    background-position: -469px -315px;
+}
+
+.snow {
+    background-position: -469px -315px;
+}
+
+.light-snow {
+    background-position: -469px -315px;
+}
